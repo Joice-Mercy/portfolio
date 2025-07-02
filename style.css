@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #0d1b2a, #1b263b);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.homepage {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #0a192f, #1b263b);
+    color: white;
+}
+
+.home-con {
+    padding-left: 25px;
+}
+.logo {
+    color: #64ffda;
+    font-family: georgia;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.2);
+    transition: all 0.3s ease;
+    padding: 8px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.8);
+}
+
+.nav-list {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+}
+
+.font {
+    font-size: 34px;
+    margin-bottom: 100px;
+}
+
+.text {
+    color: #64ffda;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
