@@ -5,14 +5,15 @@
 
 .homepage {
     min-height: 100vh;
-    width: 1800px;
-    padding-top:200px;
-    background:linear-gradient(to top,hwb(211 2% 84%), #f9fafc);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .home-con {
     padding-left: 25px;
 }
+
 .logo {
     color: #0d1b2a;
     font-family: georgia;
@@ -20,6 +21,8 @@
     transition: all 0.3s ease;
     padding: 8px;
 }
+
+
 .nav-list {
     margin: 10px;
     padding: 10px;
@@ -30,15 +33,10 @@
     font-size: 34px;
     margin-bottom: 100px;
 }
-.font-para{
-    font-size: 30px;
-    margin-bottom: 100px;
-}
 
 .text {
     color: white;
 }
-
 
 .card {
     transition: transform 0.3s ease;
